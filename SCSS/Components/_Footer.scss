@@ -1,0 +1,29 @@
+
+.Footer-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer1{
+    
+    grid-area: Footer1;
+    height: fit-content;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    background-color: green;
+    justify-content: space-between;
+    padding: 0% 10%;
+   
+   }
+   
+   .Parrafo-Footer{
+   
+   margin-bottom: 0%;
+   
+   }
+   .logoArraigo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

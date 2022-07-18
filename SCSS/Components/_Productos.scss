@@ -1,0 +1,49 @@
+.Grid-Section-products{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+    }
+    .grid-productos-image {
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 20%;
+         &:hover {
+            transform: scale(1.1);
+            transition: all 1s;
+    }
+    .Imagen-producto{
+        margin: 4%;
+        width: 50%;
+        height: 50%;
+        }
+    }
+    
+.product-description{
+margin: 0% 10%;
+}
+
+.Productos{
+
+    grid-area: Productos;
+    height: fit-content;
+}
+
+@media only screen and (Max-width: 1000px) {
+
+    .grid-container {
+        display: grid;
+        width: auto;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 5px;
+    
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #66bb6a !important;
+}
