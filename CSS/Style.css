@@ -156,14 +156,6 @@ header a {
   height: fit-content;
 }
 
-@media only screen and (Max-width: 1000px) {
-  .grid-container {
-    display: grid;
-    width: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 5px;
-  }
-}
 .card {
   display: flex;
   flex-direction: column;
@@ -251,6 +243,14 @@ header a {
     grid-template-columns: repeat(4, 100%);
     gap: 10px;
     grid-template-areas: "Header" "Carousel" "Productos" "Servicios" "Footer1";
+  }
+}
+@media only screen and (Max-width: 1000px) {
+  .grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
   }
 }
 

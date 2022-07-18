@@ -29,16 +29,7 @@ margin: 0% 10%;
     height: fit-content;
 }
 
-@media only screen and (Max-width: 1000px) {
 
-    .grid-container {
-        display: grid;
-        width: auto;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 5px;
-    
-    }
-}
 
 .card {
     display: flex;
