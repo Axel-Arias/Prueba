@@ -172,10 +172,6 @@ justify-content: left;
 
 
 
-.Footer-contacto {
-    display: flex;
-    flex-direction: column;
-}
 .grid-container{
     margin: 4% 10%;
     justify-content: space-evenly;
@@ -317,6 +313,11 @@ grid-area: Carousel;
  justify-content: space-between;
  padding: 0% 10%;
 
+}
+
+.Footer-contacto {
+    display: flex;
+    flex-direction: column;
 }
 
 .Parrafo-Footer{
