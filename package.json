@@ -1,13 +1,13 @@
 {
-  "name": "prueba-master",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ArraigoSuculentas",
+  "version": "1.4.4",
+  "description": "Pagina de venta de cactus y suculentas y distintos servicios para eventos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
     "build-sass": "node-sass --include-path scss scss/Style.scss css/Style.css"
   },
-  "author": "",
+  "author": "Axel Arias",
   "license": "ISC"
 }
